@@ -1,7 +1,11 @@
-import { useState } from "react";
+import Todos from "./components/Todos";
 
 function App() {
-  return <div className="text-slate-900">Todo App</div>;
+  return (
+    <div>
+      <Todos />
+    </div>
+  );
 }
 
 export default App;
