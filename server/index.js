@@ -1,5 +1,7 @@
 const express = require("express");
 const app = express();
+const cors = require("cors");
+app.use(cors());
 
 const debug = require("debug")("app:main");
 const config = require("config");
